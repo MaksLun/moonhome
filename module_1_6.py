@@ -4,6 +4,7 @@ print(my_dict)
 print(my_dict['Maksim'])
 my_dict['Artem'] = 1999
 print(my_dict)
+print(my_dict.get('Ivan'))
 my_dict.update({'Masha': 1995, 'Alina':2001})
 print(my_dict)
 a = my_dict.pop('Masha')
